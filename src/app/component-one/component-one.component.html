@@ -1,4 +1,5 @@
-<div style="color: crimson;">
-    <p>Warning</p>
+<input type="text" id="username" (input)="changeInput($event)" value={{username}}>
 
-</div>
+<p>{{username}}</p>
+
+<button [disabled]=emptyString (click)="buttonClick()">Click Me</button>
